@@ -67,7 +67,7 @@ export default {
       this.user.email = user.email
     },
     methods: {
-      /** 更新用户信息 */
+      /** 更新用户信息- test */
       async onUpdate () {
         let updateParams = {
           image: this.user.image,
